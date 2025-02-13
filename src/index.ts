@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     answeredQuestions = [];
     currentQuestionIndex = 0;
     timeLeft = 100;
-    console.log(timeLeft);
+
     clearInterval(timerInterval);
     startTimer();
     shuffleArray(properties);
