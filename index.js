@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.removeItem("answeredQuestions");
         answeredQuestions = [];
         currentQuestionIndex = 0;
-        timeLeft = 30;
+        timeLeft = 100;
         clearInterval(timerInterval);
         startTimer();
         shuffleArray(properties);
